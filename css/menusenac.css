@@ -1,0 +1,17 @@
+#s1 a:visited{
+	color: white;
+}
+#s1 a:hover{
+	color: blue;
+}
+#s1 a:active{
+	color: black;
+}
+#s1 a:link, a:visited{
+	background-color: #387FB4;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	width: 90px;
+}
