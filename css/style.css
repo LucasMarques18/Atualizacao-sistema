@@ -1,0 +1,78 @@
+/* Formatações dos Títulos e Textos */
+section.mid{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.titulo{
+	text-align: center;
+	font-family: arial black;
+	color: #004587;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	
+}
+.titulo2{
+	text-align: center;
+	font-family: arial;
+	color: #004587;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+.titulo3{
+	text-align: center;
+	font-family: arial;
+	color: #004587;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.pjustify{
+	text-align: justify;
+	font-family: arial;
+	color: #004587;
+	font-size: 18px;
+	padding-bottom: 20px;
+	
+}
+
+/* Formatação das Linhas Horizontais */
+hr{
+	background-color: #F7941D;
+	height: 2px;
+	width: 100%;
+    border: none;
+}
+/* Formatações das Imagens */
+.senac{
+    text-align: center;
+    margin-left: 6%;
+	padding-top: 1px;
+    padding-bottom: 15px;
+	width: 200px;
+	height: 80px;
+}
+/* Formatações das Redes Sociais */
+.redes{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.redes a{
+    text-decoration: none;
+    background-color: #023E73;
+    color: white;
+    padding: 5% 5% 1% 5%;
+    border-radius: 20px;
+    
+}
+/* Formatação do Desenvolvedor */
+.marca{
+	text-align: right;
+	color: #F7941D;
+	font-family: arial;
+	font-size: 15px;
+}

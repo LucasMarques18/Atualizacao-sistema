@@ -1,0 +1,19 @@
+
+.bloco{
+    background-color: #d3d3d344;
+    border-radius: 25px;
+    padding: 1px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+h2{
+    color: #f77d0c;
+}
+h3 a{
+    color: #004587;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #f77d0c;
+    transition: 0.2s;
+}

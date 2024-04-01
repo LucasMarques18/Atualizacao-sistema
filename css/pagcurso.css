@@ -1,0 +1,30 @@
+.inicio img{
+    width: 100%;
+    height: auto;
+}
+.inicio img.corel{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+p{
+    text-align: justify;
+}
+h2{
+    color: #f77d0c;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h3 a{
+    color: #004587;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #f77d0c;
+    transition: 0.2s;
+}
+p{
+    font-size: 20px;
+}

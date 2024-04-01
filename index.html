@@ -3,18 +3,26 @@
 	<head>
 		<title>Senac Tech - RS</title>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="./css/sitesenac.css"/>
-		<link rel="stylesheet" type="text/css" href="./css/menusenac.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sitesenac.css"/>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
 	</head>
 <body>
-	<section>
+	<section class="top">
+		<img class="senac" src="imagens/senac_logo_new.png" alt="Logo do Senac" title="Senac Tech"/>
 		<header>
-			<img class="senac" src="./imagens/logo.senac1.png" alt="Logo do Senac" title="Senac Tech"/>
-			<img class="fecomercio" src="./imagens/fecomercio.jpg" alt="Logo do Senac" title="Senac Tech"/>
+			<input type="checkbox" id="bt_menu">
+		    <label for="bt_menu">&#9776;</label>
 			<nav>
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
-					<li><a href="paginas/cursos.html">Cursos</a></li>
+					<li><a href="">Cursos</a>
+						<ul>
+							<li><a href="paginas/cursos-tecnicos.html">Tecnicos</a></li>
+							<li><a href="paginas/cursos-livres.html">Livres</a></li>
+						</ul>
+					</li>
 					<li><a href="paginas/localizacao.html">Localização</a></li>
 					<li><a href="paginas/cadastro.html">Cadastro</a></li>
 				</ul>
@@ -24,7 +32,7 @@
 	
 	<hr>
 
-	<section>
+	<section class="mid">
 		<div class="apresentacao">
 			<h1 class="titulo">Senac Tech</h1>
 			<img class="escola" src="./imagens/escola.jpg" alt="Foto da Escola" title="Senac Tech"/>
@@ -39,7 +47,7 @@
 
 	<hr>
 
-	<section>
+	<section class="mid">
 		<div class="index">
 			<h1 class="titulo">Nossa Escola</h1>
 			<p class="pjustify">
@@ -49,32 +57,60 @@
 				O Senac-RS foi a primeira instituição de ensino do Brasil a receber as distinções, reconhecimentos máximo à excelência. Em março 2018, foi agraciada com o Melhores em Gestão e eleita Destaque, na distinção promovida pela Fundação Nacional da Qualidade (FNQ).
 				A escola conta com mais de 50 docentes com certificações Microsoft, LPI e Adobe Instructor e Núcleo de Desenvolvimento e Inovação (para gerir as questões relacionadas à pesquisa e desenvolvimento de produtos). Também é Centro de Treinamento autorizado da AUTODESK. O horário de funcionamento é de segunda a sexta-feira, das 8h às 21h.
 			</p>
-			<div class="textofotos">
-				<img class="ifoto" src="./imagens/escola.interior.jpg" alt="Interior da Escola" title="Senac Tech"/>
-				<P>A Escola passou por diversas melhorias afim de melhor acomodar as pessoas mais importantes para nós: Você!</P>
+		</div>
+	</section>
+
+	<section class="mid">
+		<div class="slider">
+			<div class="slides">
+				<!--Radio Buttons-->
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+				<!--fim radio buttons-->
+
+				<!--slide images-->
+				<div class="slide first">
+					<img class="ifoto" src="./imagens/frente.png" alt="Interior da Escola" title="Senac Tech"/>
+				</div>
+				<div class="slide">
+					<img class="ifoto" src="./imagens/escola.interior.jpg" alt="Interior da Escola" title="Senac Tech"/>
+				</div>
+				<div class="slide">
+					<img class="ifoto" src="./imagens/escola.interior1.jpg" alt="Interior da Escola" title="Senac Tech"/>
+				</div>
+				<div class="slide">
+					<img class="ifoto" src="./imagens/escada.jpeg" alt="Interior da Escola" title="Senac Tech"/>
+				</div>
+				<!--fim slide images-->
+
+				<!--navegations auto-->
+				<div class="navigation-auto">
+					<div class="auto-btn1"></div>
+					<div class="auto-btn2"></div>
+					<div class="auto-btn3"></div>
+					<div class="auto-btn4"></div>
+				</div>
+
 			</div>
-			<div class="textofotos">
-				<img class="ifoto" src="./imagens/escola.interior1.jpg" alt="Interior da Escola" title="Senac Tech"/>
-				<p>O Senac Tech é a porta de entrada para uma carreira de sucesso num mundo tecnológico
-					e em constante evolução, onde o conhecimento adquirido fará toda diferença. Qualifique-se!
-				</p>
+
+			<div class="manual-navigation">
+				<label for="radio1" class="manual-btn"></label>
+				<label for="radio2" class="manual-btn"></label>
+				<label for="radio3" class="manual-btn"></label>
+				<label for="radio4" class="manual-btn"></label>
 			</div>
-			<div class="textofotos">
-				<img class="ifoto" src="./imagens/escadas.jpg" alt="Interior da Escola" title="Senac Tech"/>
-				<p>Sabemos que todo processo evolutivo é uma caminhada árdua e nada tranquila,
-					porém com o constante auxilio dos nossos docentes qualificados,
-					tornamos esse aprendizado o melhor possível para nossos alunos.
-				</p>
-			</div>
+
 		</div>
 	</section>
 	
 	<hr/>
 
-	<section>
+	<section class="bottom">
         <footer>
-            <div class="redes">
             <p>&copy; Copyright 2024 | Desenvolvido por <a href="mailto:lucas0marq@gmail.com.br" target="_blank">Lucas Marques</a></p>
+            <div class="redes">
 				<a href="facebook.com/senac" target="_blank">
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                     	<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
@@ -98,6 +134,6 @@
             </div>
         </footer>
     </section>
-
+	<script src="js/slider.js"></script>
 </body>
 </html>
